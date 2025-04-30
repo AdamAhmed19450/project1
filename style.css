@@ -108,8 +108,9 @@
 @media screen and (max-width: 645px) {
     .nav {
         .links {
+            gap: 30px;
             a {
-                font-size: 25px;
+                font-size: 30px;
             }
         }
 
@@ -125,8 +126,9 @@
 @media screen and (max-width: 505px) {
     .nav {
         .links {
+            gap: 25px;
             a {
-                font-size: 20px;
+                font-size: 25px;
             }
         }
         .button{
@@ -147,12 +149,13 @@
         }
     }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 425px) {
     .nav{
         .links{
+            gap: 20px;
             a{
-
-                font-size: 17px;
+                
+                font-size: 22px;
             }
         }
         .button{
@@ -162,5 +165,89 @@
             }
         }
         
+    }
+}
+@media screen and (max-width: 391px) {
+    .nav{
+        .links{
+            a{
+                gap: 17px;
+                font-size: 18px;
+
+            }
+        }
+    }
+}
+@media screen and (max-width: 533px) {
+    .nav{
+        .links{
+            gap: 22px;
+            font-size: 22px;
+        }
+    }
+    .home{
+        .discription{
+            p{
+                width: 40vw;
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 347px) {
+    .nav{
+        .links{
+            gap: 16px;
+            font-size: 18px;
+        }
+    }
+    .home{
+        .discription{
+            p{
+                width: 45vw;
+                font-size: 14px;
+            }
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+}
+@media screen and (max-width: 323px) {
+    .nav{
+        .links{
+            gap: 12px;
+            font-size: 16px;
+        }
+    }
+    .home{
+        .discription{
+            p{
+                width: 50vw;
+                font-size: 14px;
+            }
+        }
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+@media screen and (max-width: 307px) {
+    .nav{
+        .links{
+            gap: 10px;
+            font-size: 14px;
+        }
+    }
+    .home{
+        .discription{
+            p{
+                width: 55vw;
+                font-size: 14px;
+            }
+        }
+        h1{
+            font-size: 20px;
+        }
     }
 }
